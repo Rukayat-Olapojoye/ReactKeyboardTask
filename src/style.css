@@ -1,0 +1,72 @@
+
+.keyboard-container{
+background:rgb(199, 195, 195);
+width:max-content;
+padding:0.35em 2rem;
+border-radius: 0.25em;
+box-shadow: 0 1rem 25px -10px #777;
+position:fixed;
+bottom: 2rem;
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+.key-row{
+    display: flex;
+    justify-content: center;
+    gap:0.25rem;
+}
+
+.key-row +.key-row {
+    margin-top:0.25rem;
+}
+
+button {
+    font-size: inherit;
+    font-family:Tahoma;
+    width:3rem;
+    height: 3rem;
+}
+
+button:hover{
+    background-color:  rgb(250, 248, 248);
+}
+
+button:active{
+    background-color:#666;
+    color: white;
+}
+
+.btn-large{
+    width: max-content;
+
+}
+
+.btn-full{
+    min-width: 5rem;
+    width: 85%;
+}
+
+.login-form{
+width: 350px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin:  35px auto;
+align-items: center;
+padding: 4rem;
+border: 1px solid rgb(223, 218, 218);
+border-radius: 1rem;
+gap: 0.25rem;
+}
+
+.login-form input{
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid rgb(223, 218, 218);
+
+
+}
