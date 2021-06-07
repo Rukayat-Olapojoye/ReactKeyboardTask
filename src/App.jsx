@@ -24,6 +24,10 @@ const App = ()=> {
         FocussedInput.focus();
         };
 
+
+// Handler for backspace button
+//Got stucked here, couldnt get this to work
+
         const btnBackSpaceHandler =() => {
             setFocussedInput(FocussedInput.slice(0, -1))
 
@@ -40,6 +44,7 @@ const App = ()=> {
     
     
 //     },[])
+
 
 
     return (
